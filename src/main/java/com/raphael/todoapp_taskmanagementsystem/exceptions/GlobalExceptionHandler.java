@@ -1,4 +1,4 @@
-package com.raphael.todoapp_taskmanagementsystem.controller;
+package com.raphael.todoapp_taskmanagementsystem.exceptions;
 
 import com.raphael.todoapp_taskmanagementsystem.exceptions.ApiError;
 import com.raphael.todoapp_taskmanagementsystem.exceptions.TodoManagementException;

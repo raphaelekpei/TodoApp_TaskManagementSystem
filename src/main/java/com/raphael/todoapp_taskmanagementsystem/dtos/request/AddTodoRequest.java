@@ -1,2 +1,18 @@
-package com.raphael.todoapp_taskmanagementsystem.dtos.request;public class addTodoRequest {
+package com.raphael.todoapp_taskmanagementsystem.dtos.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.time.LocalDate;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class AddTodoRequest {
+    private String task;
+    private LocalDate deadline;
+
 }
